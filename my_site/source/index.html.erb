@@ -2,7 +2,7 @@
 title: Welcome to Middleman
 ---
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
+<!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
   <title id="middleman-logo__title">Middleman</title>
   <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
   <path class="middleman-logo__top-right-bar" fill="#fff" d="M200 0l200 40v20L200 30z"/>
@@ -20,4 +20,57 @@ title: Welcome to Middleman
   "Read Documentation",
   "https://middlemanapp.com/basics/templating_language/",
   target: "_blank"
-) %>
+) %>-->
+<h1>This is the BMI test
+    <small class="text-muted">it will make you feel bad if you're overweight</small></h1>
+  <form>
+    <div class="form-group">
+      <label for="weight">Weight</label>
+      <input type="text" class="form-control" id="weight" aria-describedby="emailHelp" placeholder="Enter your weight">
+      <small id="weightCatchPhrase" class="form-text text-muted">We'll never share your weight with anyone else(maybe).</small>
+    </div>
+    <div class="form-group">
+      <label for="height">Height</label>
+      <input type="text" class="form-control" id="height" placeholder="Enter your height">
+      <small id="heightInstructions" class="form-text text-muted">If you use the imperial method, please use inches(e.g. if you are 6'11 then you are 83 inches [(feet * 12) + 11] ).</small>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label">
+          <input type="checkbox" id="checkbox" class="form-check-input">
+          Check here to switch to imperial
+        </label>
+    </div>
+    <button type="button" id="calculate" class="btn btn-outline-dark">Calculate</button>
+  </form>
+  <div>
+    <p>
+      <span id="display_value"></span>
+      <span id="display_message" class="badge badge-secondary"></span>
+    </p>
+  </div>
+  <h2>BMI Weight Status Categories</h2>
+  <table style="width:100%" class="table table-hover table-dark">
+    <tr>
+      <th>BMI</th>
+      <th>Weight Status</th>
+    </tr>
+    <tr>
+      <td>Below 18.5</td>
+      <td>Underweight</td>
+    </tr>
+    <tr>
+      <td>Below 18.5 - 24.9</td>
+      <td>Normal</td>
+    </tr>
+    <tr>
+      <td>Below 25 - 29.9</td>
+      <td>Overweight</td>
+    </tr>
+    <tr>
+      <td>Over 30.0</td>
+      <td>Obese</td>
+    </tr>
+  </table>
+  <script src="src/script.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
