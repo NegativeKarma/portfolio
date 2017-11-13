@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-a {
+/*a {
   color: rgba(#000, 0.7);
 
   &:focus,
@@ -21,7 +21,7 @@ a {
 .middleman-logo {
   margin-bottom: 1rem;
   width: 10rem;
-}
+}*/
 
 .container {
   background-position: center center;
@@ -69,4 +69,8 @@ form {
   margin-left: 20%;
   margin-right: 20%;
   padding: 20px;
+}
+
+.display-1 {
+  padding-top: 100px;
 }
