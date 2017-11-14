@@ -1,5 +1,5 @@
 body {
-  background-color: #abc547;
+  background-color: #FFF;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -8,20 +8,6 @@ body {
   /*padding: 18vh 1rem;*/
   text-align: center;
 }
-
-/*a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}*/
 
 .container {
   background-position: center center;
@@ -46,18 +32,27 @@ body {
 
 .nav {
   width: 100%;
-  z-index: 1;
   position: fixed;
   text-align: center;
 }
 
-.navB li {
+.nav-link {
+  color: rgb(0, 123, 255);
+  background-color: transparent;
+  text-decoration: overline underline;
+}
+
+/*.navB li {
   letter-spacing: 1px;
   font-size: 18px;
   font-family: Roboto;
   padding: 20px 20px;
   display: inline-block;
   color: #FFF;
+}*/
+
+h1 {
+  padding-top: 100px;
 }
 
 form {

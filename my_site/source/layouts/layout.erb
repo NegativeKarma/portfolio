@@ -14,22 +14,17 @@
     <%= javascript_include_tag "site" %>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div class="nav">
-          <ul>
-            <a class="navB" href="contact.html">
-              <li>Contact</li>
-            </a>
-            <a class="navB" href="index.html">
-              <li>Home</li>
-            </a>
-            <a class="navB" href="about.html">
-              <li>About</li>
-            </a>
-          </ul>
-      </div>
-    </div>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     <%= yield %>
   </body>
 </html>
