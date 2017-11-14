@@ -2,20 +2,32 @@
   Francesco Falchi
   %small.text-muted and I'm here to rock some code
 %img.img-fluid{:alt => "Responsive image", :src => "https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"}/
-%figure.figure
+.container-fluid{:style => "margin-top: 25px;"}
+  .row
+    .card-deck
+      .card
+        .card-header Featured
+        %img.card-img-top{:alt => "Card image cap", :src => "https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"}/
+        .card-block
+          %h4.card-title Card title
+          %p.card-text This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+          %a.btn.btn-primary{:href => "https://github.com/NegativeKarma/portfolio/"} Go somewhere
+          %p.card-text
+            %small.text-muted Last updated 3 mins ago
+      .card
+        %img.card-img-top{:alt => "Card image cap", :src => "//placehold.it/720x350"}/
+        .card-block
+          %h4.card-title Card title
+          %p.card-text This card has supporting text below as a natural lead-in to additional content.
+          %p.card-text
+            %small.text-muted Last updated 3 mins ago
+      .card
+        %img.card-img-top{:alt => "Card image cap", :src => "//placehold.it/720x350"}/
+        .card-block
+          %h4.card-title Card title
+          %p.card-text This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+          %p.card-text
+            %small.text-muted Last updated 3 mins ago
+%figure.figure{:style => "margin-top: 25px;"}
   %img.figure-img.img-fluid.rounded{:src => "https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"}/
-  %figcaption.figure-caption.text-left A caption for the above image.
-.card.float-right{:style => "width: 20rem;"}
-  .card-header Featured
-  %img.card-img-top{:alt => "Card image cap", :src => "https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"}/
-  .card-body
-    %h4.card-title Go figure
-    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-    %a.btn.btn-primary{:href => "https://github.com/NegativeKarma/portfolio/"} Go somewhere
-.card.float-right{:style => "width: 50rem;"}
-  .card-header Featured
-  %img.card-img-top{:alt => "Card image cap", :src => "https://static.pexels.com/photos/248797/pexels-photo-248797.jpeg"}/
-  .card-body
-    %h4.card-title Go right?
-    %p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
-    %a.btn.btn-primary{:href => "https://github.com/NegativeKarma/portfolio/"} Go somewhere
+  %figcaption.figure-caption.text-center A caption for the above image.
