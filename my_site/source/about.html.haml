@@ -1,7 +1,13 @@
-%h1.display-1 Display 1
+%h1.display-1 Hello there!
 %p.lead
   %a{:href => "http://getbootstrap.com/docs/4.0/content/typography/"} Bootstrap typography
+  I'm currently a student at Craft Academy, I want to be able to create applications and modern sites.
 .projects
   - data.projects.each do |project|
     %h4= project[:name]
     %p= project[:description]
+.about
+  - data.about.each do |about|
+    %h4= about[:name]
+    %p= about[:description]
+%img.img-fluid{:alt => "Responsive image", :src => "http://bit.ly/2iY1gmQ"}/
