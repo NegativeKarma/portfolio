@@ -1,3 +1,7 @@
 %h1.display-1 Display 1
 %p.lead
   %a{:href => "http://getbootstrap.com/docs/4.0/content/typography/"} Bootstrap typography
+.projects
+  - data.projects.each do |project|
+    %h4= project[:name]
+    %p= project[:description]

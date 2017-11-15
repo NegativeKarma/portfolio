@@ -1,8 +1,5 @@
-%form
+%form{:action => "mailto:francesco.falchi@gmail.com", :enctype => "text/plain", :method => "post"}
   .form-group
-    %label{:for => "exampleInputEmail1"} Email address
-    %input#exampleInputEmail1.form-control{"aria-describedby" => "emailHelp", :placeholder => "Enter email", :type => "email"}/
-  .form-group
-    %label{:for => "exampleFormControlTextarea1"} Write something
-    %textarea#exampleFormControlTextarea1.form-control{:placeholder => "Write here if you want to drop me two lines", :rows => "3"}
-  %button.btn.btn-primary{:type => "submit"} Submit
+    %label{:for => "exampleFormControlTextarea1"} Send me an email
+    %textarea#exampleFormControlTextarea1.form-control{:placeholder => "Write here", :rows => "3"}
+  %button.btn.btn-primary{:type => "submit"} Send
