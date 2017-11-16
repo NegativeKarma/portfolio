@@ -1,12 +1,12 @@
 %h1.display-1 Hello there!
 %p.lead
-  /%a{:href => "http://getbootstrap.com/docs/4.0/content/typography/"} Bootstrap typography
   I'm currently a student at Craft Academy, I want to be able to create applications and modern sites.
   I'm an italian from Florence that recently moved to Gothenburg.
   I decided to extend my knowledge about digital projects by joining craftacademy.
   I'm currently in medias res of my course, fighting, struggling and learning new things about coding everyday.
-.about
+.about{:style => "margin: 5px 20px 25px 20px;"}
   - data.about.each do |about|
     %h4= about[:name]
-    %p= about[:description]
+    %p.text-justify{:style => "text-align: left;"}= about[:description]
+    %a{:href => "http://francescofalchi.com/", :target => "_blank"} My previous Portfolio
 %img.img-fluid{:alt => "Responsive image", :src => "http://bit.ly/2iY1gmQ"}/
