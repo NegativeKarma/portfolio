@@ -35,11 +35,22 @@ figure {
   text-align: center;
 }
 
+.navbar{
+  padding: .25rem 1rem;
+}
+
 .nav-link {
   color: rgb(0, 123, 255);
   background-color: transparent;
   text-decoration: overline ;
   text-shadow: 1px 1px rgb(0, 123, 255);
+}
+
+.nav-link.text-warning {
+  color: #ffc107;
+  background-color: transparent;
+  text-decoration: overline ;
+  text-shadow: 1px 1px #ffc107;
 }
 
 h1 {

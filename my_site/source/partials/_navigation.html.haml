@@ -1,13 +1,28 @@
-%body
-  %nav.navbar.sticky-top.navbar-light.bg-light
-    %span.navbar-brand.mb-0.h1
-    %a.navbar-brand{:href => "#"}
-    %ul.nav.justify-content-center
+/%nav.navbar.sticky-top.navbar-light.bg-light
+/  %span.navbar-brand.mb-0.h1
+/  %a.navbar-brand{:href => "#"}
+/  %ul.nav.justify-content-center
+/    %li.nav-item
+/      %a.nav-link{:href => "index.html"} Home
+/    %li.nav-item
+/      %a.nav-link{:href => "about.html"} About
+/    %li.nav-item
+/      %a.nav-link{:href => "contact.html"} Contact
+/    %li.nav-item
+/      %a.nav-link{:href => "index.html#projects"} Projects
+%nav.navbar.sticky-top.navbar-expand-lg.navbar-dark.bg-dark
+  %a.navbar-brand{:href => "#"}
+  %button.navbar-toggler{"aria-controls" => "navbarNav", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarNav", "data-toggle" => "collapse", :type => "button"}
+    %span.navbar-toggler-icon
+  #navbarNav.collapse.navbar-collapse
+    %ul.navbar-nav
+      %li.nav-item.active
+        %a.nav-link.text-warning{:href => "index.html"}
+          Home
+          %span.sr-only (current)
       %li.nav-item
-        %a.nav-link{:href => "index.html"} Home
+        %a.nav-link.text-info{:href => "about.html"} About me
       %li.nav-item
-        %a.nav-link{:href => "about.html"} About
+        %a.nav-link.text-info{:href => "contact.html"} Contact
       %li.nav-item
-        %a.nav-link{:href => "contact.html"} Contact
-      %li.nav-item
-        %a.nav-link{:href => "index.html#projects"} Projects
+        %a.nav-link.text-info{:href => "index.html#projects"} Projects
