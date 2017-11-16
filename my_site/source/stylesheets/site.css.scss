@@ -50,11 +50,25 @@ form {
   padding-top: 100px;
 }
 
-.form-control {
+input {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
   padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+textarea {
+  width: 60%;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .display-1 {

@@ -1,6 +1,6 @@
-%form{:action => "mailto:francesco.falchi@gmail.com", :enctype => "text/plain", :method => "post"}
-  .form-group
-    %label{:for => "exampleFormControlTextarea1"} Let's get in touch
-    %textarea#exampleFormControlTextarea1.form-control{:placeholder => "Write here", :rows => "3"}
-  %button.btn.btn-primary{:type => "submit"} Send
+%form{:action => "http://formspree.io/francesco.falchi@gmail.com", :method => "POST"}
+  %label{:for => "exampleFormControlTextarea1"} Let's get in touch
+  %input{:name => "email", :placeholder => "Your email", :type => "email"}/
+  %textarea{:name => "message", :placeholder => "Your message"}
+  %button.btn.btn-primary{:type => "submit", :style => "margin-top: 25px;"} Send
 %img.img-fluid{:alt => "Responsive image", :src => "http://bit.ly/2juzG4G"}/
