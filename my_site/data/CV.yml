@@ -1,0 +1,7 @@
+- name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+  url: https://www.reddit.com/
+
+- name: FizzBuzz
+  description: My first Test driven ruby project
+  url: https://www.reddit.com/
