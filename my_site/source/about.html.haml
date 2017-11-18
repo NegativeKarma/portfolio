@@ -9,5 +9,19 @@
     %h4= about[:name]
     %p.text-justify{:style => "text-align: left;"}= about[:description]
     %a{:href => "http://francescofalchi.com/", :target => "_blank"} My previous Portfolio
+%button.btn.btn-primary{"data-target" => "#exampleModalLong", "data-toggle" => "modal", :type => "button", :style => "margin-bottom: 15px"}
+  Open CV
+#exampleModalLong.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "exampleModalLongTitle", :role => "dialog", :tabindex => "-1"}
+  .modal-dialog{:role => "document"}
+    .modal-content
+      .modal-header
+        %h5#exampleModalLongTitle.modal-title CV
+        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+          %span{"aria-hidden" => "true"} ×
+      .modal-body
+        \
+        = partial 'partials/CV'
+      %a.btn.btn-primary{:download => "CV",:href => "http://bit.ly/2AYMtk9", :role => "button", :style => "margin-bottom: 10px"} Download
+      %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button", :style => "margin-bottom: 15px"}
+        %span{"aria-hidden" => "true"} ×
 %img.img-fluid{:alt => "Responsive image", :src => "http://bit.ly/2iY1gmQ"}/
-= partial 'partials/CV'

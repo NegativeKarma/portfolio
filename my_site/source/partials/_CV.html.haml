@@ -2,7 +2,7 @@
   - data.CV.each do |project|
     %h1{:style => "padding-top: 10px;"}= project[:cv]
     %h4= project[:section]
-    %h4= project[:my_title]
+    %h5= project[:my_title]
     %a{href: "#{project.url}", :target => "_blank"}
       = project.what_project
     %p= project[:what_project_nourl]
