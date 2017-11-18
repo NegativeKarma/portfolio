@@ -1,7 +1,41 @@
-- name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
-  url: https://www.reddit.com/
+- my_title:
+  what_project:
+  description:
+  time_period:
+  where:
+  url:
 
-- name: FizzBuzz
-  description: My first Test driven ruby project
-  url: https://www.reddit.com/
+- my_title: FREELANCE PRODUCER
+  general: for clients such as
+  project_title1: Todo Modo
+  project_description1: a library and a restaurant located in Florence, Italy
+  project_url1: http://todomodo.org/
+  project_title2: Cardò
+  project_description2: a food manufacturer in Puglia, Italy
+  project_url2: http://francescofalchi.com/portfolio/cardo
+  project_title3: Centro Inter-Azioni
+  project_description3: soical communication hub
+  project_url3: http://www.centrointerazioni.it/?lang=en
+  time_period: Jan. 2016 - July 2017
+  where: Amsterdam, NL and FLorence, IT
+
+- my_title: CO-FOUNDER
+  what_project: Limoney
+  description: Creative direction
+  time_period: Feb. 2013 - Jan. 2016
+  where: Amsterdam, NL
+  url: http://francescofalchi.com/portfolio/limoney
+
+- my_title: PRODUCER
+  what_project: personal project
+  description: prototyped and pitched a personal finance management tool to several financial institutions in Italy.
+  time_period: Jan. 2012 - Dec. 2012
+  where:
+  url:
+
+- my_title: JUNIOR PRODUCER
+  what_project: Renegade LLC (Today Social Media Explorer)
+  description:
+  time_period: Jan. 2011 - Dec. 2011
+  where: New York, US
+  url: http://socialmediaexplorer.com/
