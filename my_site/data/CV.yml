@@ -5,7 +5,9 @@
   where:
   url:
 
-- my_title: FREELANCE PRODUCER
+- cv: CV
+  section: WORK
+  my_title: FREELANCE PRODUCER
   general: for clients such as
   project_title1: Todo Modo
   project_description1: a library and a restaurant located in Florence, Italy
@@ -27,7 +29,7 @@
   url: http://francescofalchi.com/portfolio/limoney
 
 - my_title: PRODUCER
-  what_project: personal project
+  what_project_nourl: personal project
   description: prototyped and pitched a personal finance management tool to several financial institutions in Italy.
   time_period: Jan. 2012 - Dec. 2012
   where:
@@ -39,3 +41,18 @@
   time_period: Jan. 2011 - Dec. 2011
   where: New York, US
   url: http://socialmediaexplorer.com/
+
+- section: EDUCATION
+  my_title: HYPER ISLAND
+  what_project: Digital Media Programme
+  description:
+  time_period: 2009 - 2011
+  where: Stockholm, SWE
+  url: https://www.hyperisland.com/programs-and-courses/digital-media-creative
+
+- my_title: UNIVERSITÀ DEGLI STUDI DI FIRENZE
+  what_project: Corso di Laurea in Biologia
+  description:
+  time_period: 2006 - 2008
+  where: Florence, IT
+  url:

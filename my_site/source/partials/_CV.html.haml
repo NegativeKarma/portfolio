@@ -1,0 +1,24 @@
+.CV
+  - data.CV.each do |project|
+    %h1{:style => "padding-top: 10px;"}= project[:cv]
+    %h4= project[:section]
+    %h4= project[:my_title]
+    %a{href: "#{project.url}", :target => "_blank"}
+      = project.what_project
+    %p= project[:what_project_nourl]
+    %p= project[:general]
+    %p
+      %a{href: "#{project.project_url1}", :target => "_blank"}
+        = project.project_title1
+    %p= project[:project_description1]
+    %p
+      %a{href: "#{project.project_url2}", :target => "_blank"}
+        = project.project_title2
+    %p= project[:project_description2]
+    %p
+      %a{href: "#{project.project_url3}", :target => "_blank"}
+        = project.project_title3
+    %p= project[:project_description3]
+    %p= project[:description]
+    %p= project[:time_period]
+    %p= project[:where]
