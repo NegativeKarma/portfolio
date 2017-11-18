@@ -4,3 +4,6 @@
   %textarea{:name => "message", :placeholder => "Your message"}
   %button.btn.btn-primary{:type => "submit", :style => "margin-top: 25px;"} Send
 %img.img-fluid{:alt => "Responsive image", :src => "http://bit.ly/2juzG4G"}/
+%h4
+  Last push:
+  = get_last_push_date('negativekarma', 'portfolio')
