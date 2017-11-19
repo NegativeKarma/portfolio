@@ -22,9 +22,10 @@ source https://rubygems.org
 * mechanize
 * json
 * capybara
+
 * group :development, :test do
-*  gem 'rspec'
-*  gem 'capybara'
+*  - gem 'rspec'
+*  - gem 'capybara'
 
 **How to use the Portfolio**
 

@@ -14,8 +14,16 @@ describe 'cv', type: :feature do
     expect(page).to have_content 'HYPER ISLAND'
   end
 
-  it 'displays paragraphs' do
-    expect(page).to have_selector 'p'
+  it 'displays correct p text' do
+    expect(page).to have_content 'for clients such as'
+  end
+
+  it 'displays buttons' do
+    expect(page).to have_selector 'button.btn.btn-primary'
+  end
+
+  it 'displays images' do
+    expect(page).to have_selector 'img.img-fluid'
   end
 
   it 'displays CV list' do
@@ -29,6 +37,13 @@ describe 'cv', type: :feature do
 
   it 'shows a link to contact' do
     expect(page).to have_css 'a', text: 'Contact'
+  end
+
+  it 'displays modal and modal header' do
+    expect(page).to have_css '.modal'
+    within '.modal' do
+      expect(page).to have_content 'CV'
+    end
   end
 
 end
