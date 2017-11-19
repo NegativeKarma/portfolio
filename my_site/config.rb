@@ -1,3 +1,4 @@
+Haml::TempleEngine.disable_option_validator!
 activate :livereload
 
 # Activate and configure extensions

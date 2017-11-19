@@ -10,4 +10,8 @@ gem 'haml_lint', require: false
 gem 'nokogiri'
 gem 'mechanize'
 gem 'json'
-gem 'capybara'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'capybara'
+end
