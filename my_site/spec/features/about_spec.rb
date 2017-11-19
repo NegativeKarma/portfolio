@@ -5,6 +5,7 @@
 # it 'shows a link to contact' do
 #   expect(page).to have_css 'a', text: 'Contact'
 # end
+
 # require 'spec_helper'
 #
 # describe 'about', type: :feature do
