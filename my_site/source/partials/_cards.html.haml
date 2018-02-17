@@ -1,6 +1,6 @@
 .container-fluid{:style => "margin-top: 25px;"}
   .row
-    .card-deck
+    .card-columns
       .card
         .card-header Featured
         %img.card-img-top{:alt => "Card image cap", :src => "http://bit.ly/2ChIQ80"}/
@@ -14,16 +14,29 @@
           -#     Last commit:
           -#     = get_last_push_date('craftacademy', 'timber')
       .card
+        .card-header Featured
+        %img.card-img-top{:alt => "Card image cap", :src => "http://bit.ly/2CrAxa9"}/
+        .card-block
+          %h4.card-title Dishley project
+          %p.card-text This app will show restaurants nearby your position thanks to Google maps API integration.
+          %a.btn.btn-primary{:href => "https://github.com/CraftAcademy/jak-sie-masz-slowfood", :target => "_blank", :style => "margin-bottom: 5px;"} Go to repo
+          %a.btn.btn-primary{:href => "https://jak-sie-masz-slowfood.herokuapp.com/", :target => "_blank", :style => "margin-bottom: 5px;"} Go to site
+          -# %p.card-text
+          -#   %small.text-muted
+          -#     Last commit:
+          -#     = get_last_push_date('craftacademy', 'jak-sie-masz-slowfood')
+      .card
+        .card-header Featured
         %img.card-img-top{:alt => "Card image cap", :src => "http://bit.ly/2HciesP"}/
         .card-block
           %h4.card-title Royale with cheese
           %p.card-text Search for movies via the movie database API.
-          %a.btn.btn-primary{:href => "https://github.com/NegativeKarma/royale-with-cheese/tree/version_final", :target => "_blank", :style => "margin-bottom: 5px;"} Go to repo
+          %a.btn.btn-primary{:href => "https://github.com/CraftAcademy/royale-with-cheese", :target => "_blank", :style => "margin-bottom: 5px;"} Go to repo
           %a.btn.btn-primary{:href => "https://royale-with-cheese-wsix.herokuapp.com/", :target => "_blank", :style => "margin-bottom: 5px;"} Go to site
           -# %p.card-text
           -#   %small.text-muted
           -#     Last commit:
-          -#     = get_last_push_date('negativekarma', 'royale-with-cheese')
+          -#     = get_last_push_date('craftacademy', 'royale-with-cheese')
       .card
         %img.card-img-top{:alt => "Card image cap", :src => "http://bit.ly/2z5qdra"}/
         .card-block
